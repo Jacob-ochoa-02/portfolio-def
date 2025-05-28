@@ -1,0 +1,118 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        },
+
+        "es": {
+            "title": "Vida Reciente",
+            "title_menu": "Actualizaciones",
+            "title_long_prefix": "Consulta mis",
+            "title_long": "Actualizaciones **Recientes**"
+        },
+        "zh": {
+            "title": "近期生活",
+            "title_menu": "更新",
+            "title_long_prefix": "查看我的",
+            "title_long": "最新**动态**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {},
+
+            "items": [
+            ]
+        },
+
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Quick **Facts**" },
+                "es": { "title": "Feed de **Noticias**" },
+                "zh": { "title": "新闻**动态**"}
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "07/08/2023",
+                        "end": "11/28/2023"
+                    },
+                    "links": [
+                        {"string": "see_more", "href": "https://github.com/Jacob-ochoa-02/FizebadProject"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Created a system for Fizebad",
+                            "text": "Developed a custom application for Fizebad that allows users to manage and schedule tennis game turns efficiently. The system supports real-time booking, player queue management, and notifications, helping streamline court usage and reduce scheduling conflicts."
+                        },
+                        "es": {
+                            "title": "Creación de un sistema para Fizebad",
+                            "text": "Desarrollé una aplicación personalizada para Fizebad que permite a los usuarios gestionar y programar turnos para partidos de tenis de manera eficiente. El sistema admite reservas en tiempo real, gestión de colas de jugadores y notificaciones, lo que ayuda a optimizar el uso de las canchas y reducir conflictos de programación."
+                        },
+                        "zh": {
+                            "title": "为Fizebad创建的系统",
+                            "text": "为Fizebad开发了一款定制应用程序, 方便用户高效管理和安排网球比赛的轮次。该系统支持实时预订、玩家排队管理和通知功能, 有助于优化球场使用并减少排程冲突。"
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "07/08/2024",
+                        "end": "11/28/2024"
+                    },
+                    "links": [{ "string": "see_more", "href": "https://github.com/Jacob-ochoa-02/PhoneScanner" }],
+                    "locales": {
+                        "en": {
+                            "title": "Mobile App **Phone Scanner**",
+                            "text": "Developed a mobile app that scans your phone to analyze its hardware and battery health, providing an estimate of the remaining 'life' and performance of your device. This helps users make informed decisions about maintenance or upgrades."
+                        },
+                        "es": {
+                            "title": "Aplicación móvil **Escáner de Teléfono**",
+                            "text": "Desarrollé una aplicación móvil que escanea tu teléfono para analizar su hardware y el estado de la batería, proporcionando una estimación de la 'vida útil' y el rendimiento restantes del dispositivo. Esto ayuda a los usuarios a tomar decisiones informadas sobre mantenimiento o actualizaciones."
+                        },
+                        "zh": {
+                            "title": "移动应用 **手机扫描器**",
+                            "text": "开发了一款移动应用，可扫描手机以分析其硬件和电池健康状况，并估算设备的剩余“寿命”和性能。这有助于用户做出有关维护或升级的明智决策。"
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": null,
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_more", "href": "https://github.com/Jacob-ochoa-02/PCSCRM/tree/main" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "CRM Development for Bank",
+                            "text": "Developed a custom CRM system for a bank, enabling client search and management, filtering by various characteristics, and performing advanced queries. The platform includes full CRUD functionality for clients and operations, streamlining information management and enhancing customer service."
+                        },
+                        "es": {
+                            "title": "Creacion de CRM para banco",
+                            "text": "Desarrollé un sistema CRM personalizado para un banco, permitiendo buscar y gestionar clientes, filtrar por diferentes características y realizar consultas avanzadas. La plataforma incluye funcionalidades CRUD completas para clientes y operaciones, facilitando la administración eficiente de la información y mejorando la atención al cliente."
+                        },
+                        "zh": {
+                            "title": "为银行开发的CRM系统",
+                            "text": "为一家银行开发了定制的CRM系统,实现了客户搜索与管理、按多种特征筛选以及执行高级查询。该平台包含完整的客户与业务的CRUD功能,有效简化信息管理流程并提升客户服务质量。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

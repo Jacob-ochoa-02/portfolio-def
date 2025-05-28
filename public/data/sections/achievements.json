@@ -1,0 +1,114 @@
+{
+  "locales": {
+    "en": {
+      "title": "Awards",
+      "title_menu": "Achievements",
+      "title_long_prefix": "Here are my",
+      "title_long": "Career **Achievements**"
+    },
+    "es": {
+      "title": "Logros",
+      "title_menu": "Logros",
+      "title_long_prefix": "Aquí están mis",
+      "title_long": "**Logros** Profesionales"
+    },
+    "zh": {
+      "title": "奖项",
+      "title_menu": "成就",
+      "title_long_prefix": "以下是我的",
+      "title_long": "职业**成就**"
+    }
+  },
+  "articles": [
+    {
+      "id": "certifications",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": { "title": "Certifications" },
+        "es": { "title": "Certificaciones" },
+        "zh": { "title": "认证" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#FFD700", "fill": "#111" }
+          },
+          "dates": {
+            "start": "05/05/2021",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.aws.com/" }
+          ],
+            "locales": {
+            "en": {
+              "title": "**Udemy**",
+              "text": "JavaScript Developer Certified"
+            },
+            "es": {
+              "text": "Desarrollador JavaScript Certificado"
+            },
+            "zh": {
+              "text": "JavaScript 认证开发者"
+            }
+            }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-python",
+            "faColors": { "bg": "#007396", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "05/05/2022",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.udemy.com/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Udemy**",
+              "text": "Certified Python Developer"
+            },
+            "es": {
+              "text": "Desarrollador Python Certificado"
+            },
+            "zh": {
+              "text": "Python 认证开发者"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": "#47A248", "fill": "#EEE" }
+          },
+          "dates": {
+            "start": "08/15/2023",
+            "end": null
+          },
+          "links": [
+            { "string": "see_certification", "href": "https://www.mongodb.com/" }
+          ],
+          "locales": {
+            "en": {
+              "title": "**MongoDB** University",
+              "text": "MongoDB Certified Developer"
+            },
+            "es": {
+              "text": "Desarrollador Certificado en MongoDB"
+            },
+            "zh": {
+              "text": "MongoDB 认证开发者"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

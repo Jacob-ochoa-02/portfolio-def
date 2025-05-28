@@ -1,0 +1,170 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+        "zh": {
+            "title": "作品集",
+            "title_long_prefix": "看看我的",
+            "title_long": "**作品集**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"},
+                        "zh": {"singular": "应用", "plural": "应用"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "zh": {"singular": "网站", "plural": "网站"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "zh": {"singular": "工具", "plural": "工具"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Jacob-ochoa-02/mailerapp"},
+                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "MailerApp",
+                            "text": "An email application built with <b>Python</b> and <b>Django</b>, designed to create, send, and track personalized email campaigns with ease.",
+                            "tags": ["Email", "Python", "Django", "Campaigns"]
+                        },
+                        "es": {
+                            "title": "MailerApp",
+                            "text": "Una aplicación de correo electrónico desarrollada con <b>Python</b> y <b>Django</b>, diseñada para crear, enviar y hacer seguimiento de campañas de correo personalizadas de forma sencilla.",
+                            "tags": ["Email", "Python", "Django", "Campañas"]
+                        },
+                        "zh": {
+                            "title": "MailerApp",
+                            "text": "一款使用 <b>Python</b> 和 <b>Django</b> 开发的电子邮件应用，可轻松创建、发送并跟踪个性化邮件营销活动。",
+                            "tags": ["电子邮件", "Python", "Django", "营销活动"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Jacob-ochoa-02/PhoneScanner"},
+                        {"faIcon": "fa-brands fa-flutter"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Mobile App Phone Scanner",
+                            "text": "Developed a mobile app that scans your phone to analyze its hardware and battery health, providing an estimate of the remaining 'life' and performance of your device. This helps users make informed decisions about maintenance or upgrades."
+                        },
+                        "es": {
+                            "title": "Aplicación móvil Escáner de Teléfono",
+                            "text": "Desarrollé una aplicación móvil que escanea tu teléfono para analizar su hardware y el estado de la batería, proporcionando una estimación de la 'vida útil' y el rendimiento restantes del dispositivo. Esto ayuda a los usuarios a tomar decisiones informadas sobre mantenimiento o actualizaciones."
+                        },
+                        "zh": {
+                            "title": "移动应用 手机扫描器",
+                            "text": "开发了一款移动应用，可扫描手机以分析其硬件和电池健康状况，并估算设备的剩余“寿命”和性能。这有助于用户做出有关维护或升级的明智决策。"
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/place-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Jacob-ochoa-02/FizebadProject"},
+                        {"faIcon": "fa-brands fa-react"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Created a system for Fizebad",
+                            "text": "Developed a custom application for Fizebad that allows users to manage and schedule tennis game turns efficiently. The system supports real-time booking, player queue management, and notifications, helping streamline court usage and reduce scheduling conflicts."
+                        },
+                        "es": {
+                            "title": "Creación de un sistema para Fizebad",
+                            "text": "Desarrollé una aplicación personalizada para Fizebad que permite a los usuarios gestionar y programar turnos para partidos de tenis de manera eficiente. El sistema admite reservas en tiempo real, gestión de colas de jugadores y notificaciones, lo que ayuda a optimizar el uso de las canchas y reducir conflictos de programación."
+                        },
+                        "zh": {
+                            "title": "为Fizebad创建的系统",
+                            "text": "为Fizebad开发了一款定制应用程序, 方便用户高效管理和安排网球比赛的轮次。该系统支持实时预订、玩家排队管理和通知功能, 有助于优化球场使用并减少排程冲突。"
+                        }
+                    }
+                },
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/Jacob-ochoa-02/PCSCRM"},
+                        {"faIcon": "fa-brands fa-js"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Bank CRM",
+                            "text": "Developed a custom CRM system for a bank, enabling client search and management, filtering by various characteristics, and performing advanced queries. The platform includes full CRUD functionality for clients and operations, streamlining information management and enhancing customer service."
+                        },
+                        "es": {
+                            "title": "Creacion de CRM para banco",
+                            "text": "Desarrollé un sistema CRM personalizado para un banco, permitiendo buscar y gestionar clientes, filtrar por diferentes características y realizar consultas avanzadas. La plataforma incluye funcionalidades CRUD completas para clientes y operaciones, facilitando la administración eficiente de la información y mejorando la atención al cliente."
+                        },
+                        "zh": {
+                            "title": "为银行开发的CRM系统",
+                            "text": "为一家银行开发了定制的CRM系统,实现了客户搜索与管理、按多种特征筛选以及执行高级查询。该平台包含完整的客户与业务的CRUD功能,有效简化信息管理流程并提升客户服务质量。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

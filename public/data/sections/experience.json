@@ -1,0 +1,101 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        },
+
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionel**"
+        },
+
+        "ko": {
+            "title": "경험",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**직업적** 경험"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "08/01/2022",
+                        "end": "02/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Backend** Developer",
+                            "info": "Hacienda Fizebad Project",
+                            "text": "Developed a scalable backend system for various clients, optimizing customer service performance and improving shift management through the implementation of RESTful APIs.",
+                            "tags": null
+                        },
+                        "es": {
+                            "title": "Desarrollador **Backend**",
+                            "info": "Hacienda Fizebad Proyecto",
+                            "text": "Desarrollé un sistema de backend escalable para varios clientes, optimizando el rendimiento en la atención al cliente y mejorando la gestión de turnos mediante la implementación de APIs RESTful.",
+                            "tags": null
+                        },
+                        "zh": {
+                            "title": "**后端**开发人员",
+                            "info": "Hacienda Fizebad Project",
+                            "text": "我为多个客户开发了可扩展的后端系统, 优化了客户服务的性能, 并通过实施RESTful API改善了排班管理。",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2021",
+                        "end": "12/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Commercial** Assistant",
+                            "info": "Caryresco",
+                            "text": "Worked at a customer service company, assisting clients with their orders and inquiries. Learned to handle difficult situations and provide excellent customer service.",
+                            "tags": null
+                        },
+                        "es": {
+                            "title": "**Asistente** comercial",
+                            "info": "Caryresco",
+                            "text": "Participé en una empresa de servicio al cliente, ayudando a los clientes con sus pedidos y consultas. Aprendí a manejar situaciones difíciles y a proporcionar un excelente servicio al cliente.",
+                            "tags": null
+                        },
+                        "zh": {
+                            "title": "**商务**助理",
+                            "info": "Caryresco",
+                            "text": "在一家客户服务公司工作，协助客户处理订单和咨询。学会了应对各种困难情况，并提供优质的客户服务。",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

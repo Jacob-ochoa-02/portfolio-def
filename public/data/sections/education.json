@@ -1,0 +1,159 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+        "zh": {
+            "title": "教育",
+            "title_long_prefix": "这是我的",
+            "title_long": "**教育**背景"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/pcjic.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/08/2021",
+                        "end": "..."
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Professional** in Computer Engineering",
+                            "info": "PCJIC",
+                            "text": "Pursuing a professional degree in Computer Engineering, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                            "tags": ["Networks", "Computer Engineering", "App Development", "Algorithms"]
+                        },
+                        "es": {
+                            "title": "**Profesional** en ingeniería informática",
+                            "info": "PCJIC",
+                            "text": "Cursando una carrera profesional de ingeniería informática, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación y campamentos de entrenamiento.",
+                            "tags": ["Redes", "Ingeniería Informática", "Desarrollo de Aplicaciones", "Algoritmos"]
+                        },
+                        "zh": {
+                            "title": "**专业** 计算机工程",
+                            "info": "PCJIC",
+                            "text": "正在攻读计算机工程专业学位, 重点学习算法、数据结构、软件工程和Web开发。通过各种编程项目和训练营获得了实践经验。",
+                            "tags": ["网络", "计算机工程", "应用开发", "算法"]
+}
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/udemy.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "05/01/2023",
+                        "end": "06/01/2014"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python development",
+                            "info": "Udemy",
+                            "text": "Completed an intensive Udemy program focused on Python development, covering essential skills like backend programming, database management, and web application deployment. This course provided a solid foundation in modern Python practices.",
+                            "tags": ["Python 3", "Flask", "SQL", "Django"]
+                        },
+                        "es": {
+                            "title": "Desarrollo en Python",
+                            "info": "Udemy",
+                            "text": "Completé un programa intensivo de Udemy centrado en el desarrollo de Python, cubriendo habilidades esenciales como programación backend, gestión de bases de datos y despliegue de aplicaciones web. Este curso proporcionó una base sólida en las prácticas modernas de Python.",
+                            "tags": ["Python 3", "Flask", "SQL", "Django"]
+                        },
+                        "zh": {
+                            "title": "Python开发",
+                            "info": "Udemy",
+                            "text": "完成了一个集中的Udemy课程, 专注于Python开发, 涵盖了后端编程、数据库管理和Web应用部署等基本技能。该课程为现代Python实践提供了坚实的基础。",
+                            "tags": ["Python 3", "Flask", "SQL", "Django"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/udemy.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2020",
+                        "end": "06/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript Development",
+                            "info": "Udemy",
+                            "text": "Completed a comprehensive Udemy course on JavaScript development, covering modern frameworks, asynchronous programming, and best practices for building interactive web applications. Gained hands-on experience and practical skills highly valued in today's tech industry.",
+                            "tags": ["JavaScript", "Web Development", "Async Programming", "Angular", "React"]
+                        },
+                        "es": {
+                            "title": "Desarrollo en JavaScript",
+                            "info": "Udemy",
+                            "text": "Completé un curso integral de Udemy sobre desarrollo en JavaScript, abarcando frameworks modernos, programación asíncrona y buenas prácticas para crear aplicaciones web interactivas. Adquirí experiencia práctica y habilidades muy valoradas en la industria tecnológica actual.",
+                            "tags": ["JavaScript", "Desarrollo Web", "Programación Asíncrona", "Angular", "React"]
+                        },
+                        "zh": {
+                            "title": "JavaScript开发",
+                            "info": "Udemy",
+                            "text": "完成了Udemy上的一门全面JavaScript开发课程, 涵盖了现代框架、异步编程以及构建交互式Web应用的最佳实践。获得了实践经验和在当今技术行业中备受重视的实用技能。",
+                            "tags": ["JavaScript", "Web开发", "异步编程", "Angular", "React"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/udemy.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2022",
+                        "end": "06/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ethical Hacking",
+                            "info": "Udemy",
+                            "text": "Completed a comprehensive Udemy course on Ethical Hacking, covering penetration testing, network security, and vulnerability assessment. Developed practical skills in identifying and mitigating security threats, and gained hands-on experience with industry-standard tools and techniques.",
+                            "tags": ["Ethical Hacking", "Penetration Testing", "Network Security", "Vulnerability Assessment"]
+                        },
+                        "es": {
+                            "title": "Hacking Ético",
+                            "info": "Udemy",
+                            "text": "Completé un curso integral de Udemy sobre Hacking Ético, abarcando pruebas de penetración, seguridad de redes y evaluación de vulnerabilidades. Desarrollé habilidades prácticas para identificar y mitigar amenazas de seguridad, y adquirí experiencia con herramientas y técnicas estándar de la industria.",
+                            "tags": ["Hacking Ético", "Pruebas de Penetración", "Seguridad de Redes", "Evaluación de Vulnerabilidades"]
+                        },
+                        "zh": {
+                            "title": "道德黑客",
+                            "info": "Udemy",
+                            "text": "完成了Udemy上的道德黑客综合课程, 涵盖渗透测试、网络安全和漏洞评估。掌握了识别和缓解安全威胁的实用技能，并获得了使用行业标准工具和技术的实践经验。",
+                            "tags": ["道德黑客", "渗透测试", "网络安全", "漏洞评估"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

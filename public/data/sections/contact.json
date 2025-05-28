@@ -1,0 +1,125 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contácta**me"
+        },
+        "zh": {
+            "title": "接觸",
+            "title_long_prefix": "不要猶豫",
+            "title_long": "**聯絡**我"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "es": {"title": "Envíame un **mensaje**"},
+                "zh": {"title": "給我發一封**訊息**"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "es": {"title": "O si **prefieres**..."},
+                "zh": {"title": "或如果**您更喜歡**..."}
+            },
+
+            "items": [
+                {
+                    "value": "+57 313 641 0297",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"},
+                        "zh": {"title": "電話"}
+                    }
+                },
+
+                {
+                    "value": "jacosochoa290@gmail.com",
+                    "links": [
+                        {"href": "mailto:jacosochoa290@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "zh": {"title": "電子郵件"}
+                    }
+                },
+
+                {
+                    "value": "@jacob-ochoa-02",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/jacob-ochoa-lopera-935b56223/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "Jacob Ochoa",
+                    "links": [
+                        {"href": "https://www.facebook.com/share/16meMwtK4a/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-facebook",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Facebook"}
+                    }
+                },
+
+                {
+                    "value": "@jacob-ochoa-02",
+                    "links": [
+                        {"href": "https://instagram.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                }
+            ]
+        }
+    ]
+}

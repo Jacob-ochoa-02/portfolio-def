@@ -1,0 +1,296 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Jacob Ochoa!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Jacob Ochoa!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Jacob Ochoa!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Jacob Ochoa** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {}
+            },
+
+            "items": [
+                {
+                    "value": "jacosochoa290@gmail.com",
+                    "links": [
+                        {"href": "mailto:jacosochoa290@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@jacob_ochoa_02",
+                    "links": [
+                        {"href": "https://github.com/Jacob-ochoa-02"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I’m a developer with <b>1.5 years of hands-on experience</b> in software development. While I began studying programming earlier, I started building real-world applications a year and a half ago, focusing primarily on backend development, with some frontend work as well.</p> <p>I’ve worked with a variety of programming languages in production environments, including C++, C, Java, JavaScript, TypeScript, PHP, and Python. This diverse technical background allows me to adapt quickly to different project requirements and contribute effectively across the stack.</p> <p>I’m excited about the opportunity to collaborate <b>with you!</b></p>"},
+                        "es": {"text": "<p>Soy un desarrollador con <b>1.5 años de experiencia práctica</b> en desarrollo de software. Si bien comencé a estudiar programación antes, empecé a construir aplicaciones del mundo real hace un año y medio, centrándome principalmente en el desarrollo backend, con algo de trabajo frontend también.</p> <p>He trabajado con una variedad de lenguajes de programación en entornos de producción, incluidos C++, C, Java, JavaScript, TypeScript, PHP y Python. Este diverso trasfondo técnico me permite adaptarme rápidamente a diferentes requisitos de proyectos y contribuir de manera efectiva en toda la pila.</p> <p>Estoy emocionado por la oportunidad de colaborar <b>contigo!</b></p>"},
+                        "zh": {"text": "<p>我是一名拥有<b>1.5年实际开发经验</b>的软件开发者。虽然我更早开始学习编程，但在一年半前才开始构建真实世界的应用，主要专注于后端开发，也有一些前端经验。</p> <p>我在生产环境中使用过多种编程语言，包括 C++、C、Java、JavaScript、TypeScript、PHP 和 Python。这种多元的技术背景让我能够快速适应不同项目需求，并在各个环节高效贡献。</p> <p>我非常期待有机会与<b>你合作！</b></p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "Partners **testimonials**"},
+                "es": {"title": "Testimonios de **compañeros**"},
+                "zh": {"title": "合作伙伴的**推荐**"}
+            },
+
+            "items": [
+                {
+                    "value": "Dora Lopera",
+                    "links": [
+                        {"href": "https://linkedin.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                       "en": {
+                            "info": "CEO at <b>CAYRESCO</b>",
+                            "text": "Jacob was a game-changer for our team. He brought clarity, commitment, and a fresh perspective that really pushed our project forward."
+                        },
+                        "es": {
+                            "info": "CEO en <b>CAYRESCO</b>",
+                            "text": "Jacob marcó una gran diferencia en nuestro equipo. Aportó claridad, compromiso y una perspectiva nueva que realmente impulsó nuestro proyecto."
+                        },
+                        "zh": {
+                            "info": "<b>CAYRESCO</b>的首席执行官",
+                            "text": "Jacob 对我们的团队带来了巨大改变。他带来了清晰的思路、坚定的投入，以及推动项目前进的新视角。"
+                        }
+
+                    }
+                },
+
+                {
+                    "value": "Andres Ocampo",
+                    "links": [
+                        {"href": "https://github.com/andrescamiloocampo"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Full Stack Developer",
+                            "text": "Person with a high level of research ability, great attention to detail, and I consider that he adheres to best practices and new technologies."
+                        },
+                        "es": {
+                            "info": "Desarrollador Full Stack",
+                            "text": "Persona con alto nivel investigativo con bastante atención al detalle y considero que está apegado a las buenas prácticas y las nuevas tecnologías."
+                        },
+                        "zh": {
+                            "info": "全栈开发者",
+                            "text": "具有很强的研究能力，非常注重细节，并且我认为他遵循最佳实践并紧跟新技术。"
+                        }
+                    }
+                },
+
+                {
+                    "value": "Stiven Mazo",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/stiven-mazo-87040a207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Full Stack Developer at Total Civil Construction",
+                            "text": "Working with Jacob made a big difference in our development process. His experience and problem-solving skills truly helped us succeed."
+                        },
+                        "es": {
+                            "info": "Full Stack Developer at Total Civil Construction",
+                            "text": "Trabajar con Jacob marcó una gran diferencia en nuestro proceso de desarrollo. Su experiencia y su capacidad para resolver problemas realmente nos ayudaron a alcanzar el éxito"
+                        },
+                        "zh": {
+                            "info": "Total Civil Construction 的全栈开发工程师",
+                            "text": "与 Jacob 合作极大地推动了我们的开发流程。他的经验和解决问题的能力对我们的成功起到了关键作用。"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "zh": { "title": "个人**兴趣**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Playing guitar",
+                            "info": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar la guitarra",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "zh": {
+                            "title": "弹吉他",
+                            "info": "探索不同的音乐风格，不断提升我的技巧。"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gamepad",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "RPG games",
+                            "info": "Immersing myself in fantasy worlds and epic stories."
+                        },
+                        "es": {
+                            "title": "Juegos de rol",
+                            "info": "Sumergiéndome en mundos de fantasía y épicas historias."
+                        },
+                        "zh": {
+                            "title": "角色扮演游戏",
+                            "info": "沉浸在幻想世界和史诗故事中。"
+                        }
+                    }
+                }
+                ,
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Reading books",
+                            "info": "Diving into various genres and expanding my knowledge."
+                        },
+                        "es": {
+                            "title": "Leer libros",
+                            "info": "Sumergiéndome en varios géneros y ampliando mis conocimientos."
+                        },
+                        "zh": {
+                            "title": "阅读书籍",
+                            "info": "深入各种类型，拓宽我的知识面。"
+                        }
+                    }
+                }
+                ,{
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-language",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Learning languages",
+                            "info": "Enjoying the challenge of picking up new languages and exploring different cultures."
+                        },
+                        "es": {
+                            "title": "Aprender idiomas",
+                            "info": "Disfrutando el reto de aprender nuevos idiomas y explorar diferentes culturas."
+                        },
+                        "zh": {
+                            "title": "学习语言",
+                            "info": "喜欢学习新语言和探索不同的文化。"
+                        }
+                    }
+                }
+
+            ]
+        }
+    ]
+}

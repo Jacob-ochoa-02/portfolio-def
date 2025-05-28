@@ -1,22 +1,7 @@
-![alt tag1](readme-assets/promo.svg)
-
-## [Live Preview](https://ryanbalieiro.github.io/react-portfolio-template/)
-
-Check out the live version of the template deployed **[here on GitHub Pages](https://ryanbalieiro.github.io/react-portfolio-template/)**.
-
-### 1. Base layout
-
-The layout uses a fixed central view with a left sidebar, adjusting perfectly across various monitor resolutions, from 4:3 to ultra-wide.
-
-![alt tag1](readme-assets/demo.png)
-
-### 2. Desktop Screenshots
-
-The main view transitions smoothly when a new page is selected from the sidebar, giving a page-flipping effect. The sidebar is also toggleable, allowing the content area to expand for a larger viewing space.
-
+### 1. Desktop Screenshots
 ![alt tag1](readme-assets/desktop.png)
 
-### 3. Mobile Screenshots
+### 2. Mobile Screenshots
 
 On mobile, the layout groups the portfolio sections into categories and transforms into a tabbed interface with a bottom navigation.
 

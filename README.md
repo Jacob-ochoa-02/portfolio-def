@@ -1,4 +1,4 @@
-![alt tag1](readme-assets/promo.png)
+![alt tag1](readme-assets/promo.svg)
 
 ## [Live Preview](https://ryanbalieiro.github.io/react-portfolio-template/)
 

@@ -13,19 +13,11 @@
             "title_long_prefix": "Hola...",
             "title_long": "Soy **Jacob Ochoa!**"
         },
-
-        "fr": {
-            "title": "Salut !",
-            "title_menu": "À propos",
-            "title_long_prefix": "Salut...",
-            "title_long": "Je suis **Jacob Ochoa!**"
-        },
-
-        "ko": {
-            "title": "환영합니다!",
-            "title_menu": "소개",
-            "title_long_prefix": "안녕하세요...",
-            "title_long": "저는 **Jacob Ochoa** 입니다!"
+        "zh": {
+            "title": "欢迎！",
+            "title_menu": "关于我",
+            "title_long_prefix": "你好...",
+            "title_long": "我是**Jacob Ochoa!**"
         }
     },
 
@@ -75,8 +67,7 @@
             "locales": {
                 "en": {"title": "**A little bit** about me..."},
                 "es": {"title": "**Un poco** sobre mí..."},
-                "fr": {"title": "**Un peu** à propos de moi..."},
-                "ko": {"title": "저에 **대해 조금**..."}
+                "zh": {"title": "关于我**一点点**..."}
             },
 
             "items": [

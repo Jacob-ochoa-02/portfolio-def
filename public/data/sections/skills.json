@@ -408,8 +408,7 @@
             "locales": {
                 "en": { "title": "Languages" },
                 "es": { "title": "Idiomas" },
-                "fr": { "title": "Langues" },
-                "ko": { "title": "언어" }
+                "zh": { "title": "語言" }
             },
 
             "items": [

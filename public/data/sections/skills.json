@@ -1,444 +1,364 @@
 {
-    "locales": {
-        "en": {
-            "title": "Skills",
-            "title_long_prefix": "Explore",
-            "title_long": "My **Skill Set**"
-        },
-
-        "es": {
-            "title": "Habilidades",
-            "title_long_prefix": "Explora",
-            "title_long": "Mis **Habilidades**"
-        },
-        "zh": {
-            "title": "技能",
-            "title_long_prefix": "探索",
-            "title_long": "我的**技能**"
-        }
+  "locales": {
+    "en": {
+      "title": "Skills",
+      "title_long_prefix": "Explore",
+      "title_long": "My **Skill Set**"
     },
-
-    "articles": [
+    "es": {
+      "title": "Habilidades",
+      "title_long_prefix": "Explora",
+      "title_long": "Mis **Habilidades**"
+    },
+    "zh": {
+      "title": "技能",
+      "title_long_prefix": "探索",
+      "title_long": "我的**技能**"
+    }
+  },
+  "articles": [
+    {
+      "id": "capabilities",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {},
+      "items": [
         {
-            "id": "capabilities",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-table-columns",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Website** design",
-                            "text": "I can bring your best ideas into life!"
-                        },
-                        "es": {
-                            "title": "Diseño de **sitios web**",
-                            "text": "¡Puedo hacer realidad tus mejores ideas!"
-                        },
-                        "zh": {
-                            "title": "**网站**设计",
-                            "text": "我可以将您的最佳创意变为现实！"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
-                        },
-                        "es": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
-                        },
-                        "zh": {
-                            "title": "**数据库**管理",
-                            "text": "我可以有效地处理您的数据！"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-mobile-screen-button",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**App** creation",
-                            "text": "I can make creative and innovative apps!"
-                        },
-                        "es": {
-                            "title": "Creación de **aplicaciones**",
-                            "text": "¡Puedo crear aplicaciones creativas e innovadoras!"
-                        },
-                        "zh": {
-                            "title": "**应用**创建",
-                            "text": "我可以制作创意和创新的应用程序！"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-window-restore",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "REST **APIs**",
-                            "text": "I can build API services!"
-                        },
-                        "es": {
-                            "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
-                        },
-                        "zh": {
-                            "title": "REST **APIs**",
-                            "text": "我可以构建 API 服务！"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Information **Security**",
-                            "text": "Security is my middle name!"
-                        },
-                        "es": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
-                        },
-                        "zh": {
-                            "title": "信息**安全**",
-                            "text": "安全是我的中间名！"
-                        }
-                    }
-                }
-            ]
-
-        },
-
-        {
-            "id": "backend_programming",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {"title": "Backend"}
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-table-columns",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Website** design",
+              "text": "I can bring your best ideas into life!"
             },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-node-js",
-                        "faColors": {"bg": "#339933", "fill": "#EEE"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "05/12/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Node.js",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-code",
-                        "faColors": {"bg": "#339933", "fill": "#EEE"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "08/12/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "C++",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "06/13/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Java 11+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#007ACC", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "06/13/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "TypeScript",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#306998", "fill": "#EEE"}
-                    },
-                    "value": 85,
-                    "dates": {
-                        "start": "06/10/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Python 3.x",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "02/16/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MySQL",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-docker",
-                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
-                    },
-                    "value": 60,
-                    "dates": {
-                        "start": "08/08/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Docker",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-server",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "value": 50,
-                    "dates": {
-                        "start": "05/20/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MongoDB",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-git",
-                        "faColors": {"bg": "#F05032", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "08/08/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Git",
-                            "info": null
-                        }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "front_end_programming",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {"title": "Frontend"}
+            "es": {
+              "title": "Diseño de **sitios web**",
+              "text": "¡Puedo hacer realidad tus mejores ideas!"
             },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-html5",
-                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "03/12/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "HTML5",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-css3",
-                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
-                    },
-                    "value": 65,
-                    "dates": {
-                        "start": "03/12/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "CSS3",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/12/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript ES6+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "08/08/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "React",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-bootstrap",
-                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "08/13/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Bootstrap",
-                            "info": null
-                        }
-                    }
-                }
-            ]
+            "zh": {
+              "title": "**网站**设计",
+              "text": "我可以将您的最佳创意变为现实！"
+            }
+          }
         },
-
         {
-            "id": "languages",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "zh": { "title": "語言" }
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Database** management",
+              "text": "I can handle your data effectively!"
             },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/flags/en.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "English",
-                            "info": "B2 speaker with excellent communication and writing skills.",
-                            "tags": ["B2"]
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "info": "Hablante B2 con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["B2"]
-                        },
-                        "zh": {
-                            "title": "英语",
-                            "info": "B2 级别的说话者，具有出色的沟通和写作能力。",
-                            "tags": ["B2"]
-                        }
-                    }
-                }
-            ]
+            "es": {
+              "title": "Gestión de **bases de datos**",
+              "text": "¡Puedo gestionar tus datos de manera eficaz!"
+            },
+            "zh": {
+              "title": "**数据库**管理",
+              "text": "我可以有效地处理您的数据！"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile-screen-button",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**App** creation",
+              "text": "I can make creative and innovative apps!"
+            },
+            "es": {
+              "title": "Creación de **aplicaciones**",
+              "text": "¡Puedo crear aplicaciones creativas e innovadoras!"
+            },
+            "zh": {
+              "title": "**应用**创建",
+              "text": "我可以制作创意和创新的应用程序！"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-window-restore",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "REST **APIs**",
+              "text": "I can build API services!"
+            },
+            "es": {
+              "title": "APIs **REST**",
+              "text": "¡Puedo crear servicios API!"
+            },
+            "zh": {
+              "title": "REST **APIs**",
+              "text": "我可以构建 API 服务！"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-lock",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "Information **Security**",
+              "text": "Security is my middle name!"
+            },
+            "es": {
+              "title": "**Seguridad** de la información",
+              "text": "¡La seguridad es mi segundo nombre!"
+            },
+            "zh": {
+              "title": "信息**安全**",
+              "text": "安全是我的专长！"
+            }
+          }
         }
-    ]
+      ]
+    },
+    {
+      "id": "backend_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Backend" },
+        "es": { "title": "Backend" },
+        "zh": { "title": "后端" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-node-js",
+            "faColors": { "bg": "#339933", "fill": "#EEE" }
+          },
+          "value": 95,
+          "dates": { "start": "05/12/2023" },
+          "locales": {
+            "en": { "title": "Node.js", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-code",
+            "faColors": { "bg": "#339933", "fill": "#EEE" }
+          },
+          "value": 95,
+          "dates": { "start": "08/12/2024" },
+          "locales": {
+            "en": { "title": "C++", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-java",
+            "faColors": { "bg": "#007396", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": { "start": "06/13/2021" },
+          "locales": {
+            "en": { "title": "Java 11+", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#007ACC", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": { "start": "06/13/2021" },
+          "locales": {
+            "en": { "title": "TypeScript", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-python",
+            "faColors": { "bg": "#306998", "fill": "#EEE" }
+          },
+          "value": 85,
+          "dates": { "start": "06/10/2023" },
+          "locales": {
+            "en": { "title": "Python 3.x", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": "#4479A1", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": { "start": "02/16/2023" },
+          "locales": {
+            "en": { "title": "MySQL", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-docker",
+            "faColors": { "bg": "#2496ED", "fill": "#EEE" }
+          },
+          "value": 60,
+          "dates": { "start": "08/08/2024" },
+          "locales": {
+            "en": { "title": "Docker", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-server",
+            "faColors": { "bg": "#47A248", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": { "start": "05/20/2024" },
+          "locales": {
+            "en": { "title": "MongoDB", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-git",
+            "faColors": { "bg": "#F05032", "fill": "#111" }
+          },
+          "value": 95,
+          "dates": { "start": "08/08/2023" },
+          "locales": {
+            "en": { "title": "Git", "info": null }
+          }
+        }
+      ]
+    },
+    {
+      "id": "front_end_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Frontend" },
+        "es": { "title": "Frontend" },
+        "zh": { "title": "前端" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-html5",
+            "faColors": { "bg": "#E34F26", "fill": "#EEE" }
+          },
+          "value": 100,
+          "dates": { "start": "03/12/2022" },
+          "locales": {
+            "en": { "title": "HTML5", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-css3",
+            "faColors": { "bg": "#1572B6", "fill": "#EEE" }
+          },
+          "value": 65,
+          "dates": { "start": "03/12/2022" },
+          "locales": {
+            "en": { "title": "CSS3", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#F7DF1E", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": { "start": "03/12/2022" },
+          "locales": {
+            "en": { "title": "JavaScript ES6+", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-react",
+            "faColors": { "bg": "#61DAFB", "fill": "#111" }
+          },
+          "value": 95,
+          "dates": { "start": "08/08/2023" },
+          "locales": {
+            "en": { "title": "React", "info": null }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-bootstrap",
+            "faColors": { "bg": "#7952B3", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": { "start": "08/13/2023" },
+          "locales": {
+            "en": { "title": "Bootstrap", "info": null }
+          }
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Languages" },
+        "es": { "title": "Idiomas" },
+        "zh": { "title": "語言" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/flags/en.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "English",
+              "info": "B2 speaker with excellent communication and writing skills.",
+              "tags": ["B2"]
+            },
+            "es": {
+              "title": "Inglés",
+              "info": "Hablante B2 con excelentes habilidades de comunicación y escritura.",
+              "tags": ["B2"]
+            },
+            "zh": {
+              "title": "英语",
+              "info": "B2 级别的说话者，具有出色的沟通和写作能力。",
+              "tags": ["B2"]
+            }
+          }
+        }
+      ]
+    }
+  ]
 }

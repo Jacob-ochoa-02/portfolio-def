@@ -125,7 +125,7 @@
                     }
                 },
                 {
-                    "value": "Jonathan Osorio-Vasco PhD (c) en ingeniería",
+                    "value": "Jonathan Osorio-Vasco",
                     "links": [],
                     "icon": {
                         "img": "images/pictures/person-3.png",
@@ -137,15 +137,15 @@
                     },
                     "locales": {
                         "en": {
-                            "info": "Software Developer",
+                            "info": "PhD (c) in Engineering",
                             "text": "Jacobo is a professional constantly training in his role as a software developer. I believe he has the ability to understand problems from different contexts and model them through computer science using various programming languages, prioritizing the flow of information."
                         },
                         "es": {
-                            "info": "Desarrollador de Software",
+                            "info": "PhD (c) en ingeniería",
                             "text": "Jacobo es un profesional en formación constante en su quehacer como desarrollador de software. Considero que tiene capacidades para comprender problemas de diferentes contextos, para ser modeladas a través de la informática a través de diversos lenguajes de programación, priorizando el flujo de información."
                         },
                         "zh": {
-                            "info": "软件开发人员",
+                            "info": "软件开发人员，工程博士在读",
                             "text": "Jacobo是一位在其软件开发工作中不断进修的专业人士。我认为他具有理解不同背景问题的能力，并能够通过计算机科学和多种编程语言对其进行建模，同时优先考虑信息流。"
                         }
                     }
